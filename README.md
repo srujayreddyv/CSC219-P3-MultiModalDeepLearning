@@ -17,7 +17,7 @@ This project focuses on developing a multi-modal deep learning framework to dete
 ## Dataset
 The project utilizes the comprehensive Fakeddit dataset, comprising over 1 million multimodal samples that include text, images, metadata, and comments. 
 
-**Download the dataset here**: [Fakeddit Dataset](https://github.com/entitize/Fakeddit)
+**Link for Original Dataset**: [Fakeddit Dataset](https://github.com/entitize/Fakeddit)
 
 ## Usage
 To train and evaluate both models:
