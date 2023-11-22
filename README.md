@@ -3,6 +3,11 @@
 ## Project Overview
 This project focuses on developing a multi-modal deep learning framework to detect fake news on social media. It features two distinct models: a custom-built baseline model and an advanced model incorporating the VGG16 architecture, leveraging both textual and visual data.
 
+## Dataset
+The project utilizes the comprehensive Fakeddit dataset, comprising over 1 million multimodal samples that include text, images, metadata, and comments. 
+
+**Link for Original Dataset**: [Fakeddit Dataset](https://github.com/entitize/Fakeddit)
+
 ## Models Description
 ### Baseline Model
 - **Vision Model**: Utilizes Convolutional Neural Networks (CNNs) for image processing.
@@ -13,11 +18,6 @@ This project focuses on developing a multi-modal deep learning framework to dete
 - **VGG16 Base**: Leverages the pre-trained VGG16 model for advanced image feature extraction.
 - **Language Processing**: Integrates LSTM for robust text processing.
 - **Model Fusion**: Concatenates outputs from both models, applying classification layers for final decision-making.
-
-## Dataset
-The project utilizes the comprehensive Fakeddit dataset, comprising over 1 million multimodal samples that include text, images, metadata, and comments. 
-
-**Link for Original Dataset**: [Fakeddit Dataset](https://github.com/entitize/Fakeddit)
 
 ## Usage
 To train and evaluate both models:
